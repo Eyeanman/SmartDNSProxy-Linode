@@ -1,4 +1,3 @@
-```
 # Smart DNS / Proxy Setup Script
 
 This script automates the setup of a smart DNS server and proxy on a CentOS 9 Linode instance to allow restricted traffic based on specified IP addresses.
