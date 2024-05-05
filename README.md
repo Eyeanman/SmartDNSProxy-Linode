@@ -30,12 +30,14 @@ From command line
 ```
 firewall-cmd --zone=smartdns --add-source=<IP>
 firewall-cmd --reload
+```
 
 Remove IP's from firewall
 From command line
 ```
 firewall-cmd --zone=smartdns --remove-source=<IP>
 firewall-cmd --reload
+```
 
 ## Using the Smart DNS Server
 Update your router/device/application DNS Server to the IP address of the Linode Instance, ideally limiting the traffic to only what you need (e.g. by Domain Name - In pfSense this is under Services>DNS Resolver>Domain Overrides)
